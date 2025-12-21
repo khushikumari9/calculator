@@ -1,0 +1,112 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightblue; 
+height: 100vh;
+color: white;
+} 
+
+.cal-body{
+ width: 70vw;
+height: 60vh ;  
+background-color:black ;
+overflow: hidden;
+border-radius: 10px;
+padding:5px ;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 4px;
+}
+
+.keys{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:gray;
+ border-radius: 50%;
+font-size: 1rem;
+}
+
+.keys:hover{
+  background-color: yellow;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.display {
+  height: 10vh;
+  grid-column: ;
+ background-color: white;
+ color: black;
+ grid-column: 1/5;
+ border-radius: 5px;
+}
+
+.zero{
+grid-column: span 2;
+ border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ac{
+  background-color: burlywood;
+
+}
+.del{
+  background-color: burlywood;
+
+}
+
+.per {
+  background-color: burlywood;
+
+}
+.d {
+  background-color:  rgb(184, 125, 48);
+
+}
+.m {
+  background-color:  rgb(184, 125, 48);
+
+}
+.s {
+  background-color:  rgb(184, 125, 48);
+
+}
+.a {
+  background-color:  rgb(184, 125, 48);
+
+}
+.e {
+  background-color: rgb(184, 125, 48);
+
+}
+
+
+
+
+
+
+
+
